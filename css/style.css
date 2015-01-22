@@ -157,6 +157,10 @@ nav {
   border:none;
 }
 
+.item img{
+  margin:auto;
+}
+
 #carousel{
   margin-top: 200px;
   margin: auto;
