@@ -119,22 +119,25 @@ nav {
           transition: height 1s ease;
 }
 
-#menu-item-1:hover ul {
+.menu-item-1 ul {
   height: 31px;
 }
 
-#menu-item-2:hover ul {
+.menu-item-2 ul {
   height: 62px;
 }
 
-#menu-item-3:hover ul {
+.menu-item-3 ul {
   height: 93px;
 }
 
-#menu-item-4:hover ul {
+.menu-item-4 ul {
   height: 124px;
 }
-#menu-item-5:hover ul {
+.menu-item-5 ul {
+  height: 155px;
+}
+.menu-item-6 ul {
   height: 155px;
 }
 
