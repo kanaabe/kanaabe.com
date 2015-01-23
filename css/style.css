@@ -30,7 +30,8 @@ nav {
  
 .menu-item {
   background: #fff;
-  width: 200px; 
+  width: 200px;
+  margin:0px;
 }
 
 /*Menu Header Styles*/
@@ -42,6 +43,8 @@ nav {
 	font-weight: 500;
 	padding: 7px 12px;
 	background: #000000;
+  margin:0px;
+  margin-top:0px;
 }
 
 .menu-item h4 a {
@@ -70,6 +73,7 @@ nav {
   list-style-type: none;
   overflow: hidden;
   padding: 0px;
+  margin-bottom: 0px; /*overwrite bootstrap*/
 }
  
 .menu-item ul a {
@@ -118,6 +122,11 @@ nav {
       -ms-transition: height 1s ease;
           transition: height 1s ease;
 }
+
+/* overwrite bootstrap*/
+.menu-item p{
+  margin-bottom: 0px;
+} 
 
 .menu-item-1 ul {
   height: 31px;
