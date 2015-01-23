@@ -54,7 +54,11 @@ nav {
   width: 200px;
 }
 
-.menu-item h4:hover {  
+.menu-item a:hover{
+  text-decoration: none;
+}
+
+.menu-item h4:hover {
   background: #00ffff; /* Old browsers */
 }
 
@@ -179,4 +183,8 @@ nav {
   width: 900px;
   height: 600px;
   padding-top: 75px;
+}
+
+.pdf-center{
+  margin-left:auto;
 }
