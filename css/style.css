@@ -15,12 +15,13 @@ body{
  
 nav {
 	font-family: "Courier New", Courier, monospace;
-	position: absolute;
-	top: 15px;
-	left: 0px;
-	line-height: 15px;
-	margin: 50px auto; /*for display only*/
+	position: fixed;
+	margin-top:2%;
+  margin-bottom:2%;
+	line-height: 10px;
 	width: 200px;
+  height:100%;
+  display:inline-block;
 	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 	-moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
@@ -197,6 +198,14 @@ nav {
   margin-left:180px;
   margin-top:65px;
   margin-bottom:65px;
-  height:635px;
 }
 
+.web-project-image{
+  padding: 15px;
+  margin: auto;
+  width: 100%;
+}
+
+.web-project-description{
+  padding:15px;
+}
