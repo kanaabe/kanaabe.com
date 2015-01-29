@@ -209,3 +209,7 @@ nav {
 .web-project-description{
   padding:15px;
 }
+
+a > img:hover{
+  opacity: 0.5;
+}
