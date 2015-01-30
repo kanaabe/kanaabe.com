@@ -155,36 +155,39 @@ nav {
   height: 155px;
 }
 
-
-.iframe-link {
- float: left;
- margin: 0;
- padding: 0;
-   width:100%;
-  height: 100%;
- }
-
- #iframe {
-  top:0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width:100%;
-  height: 100%;
-  border:none;
-}
+/* CAROUSEL SHIT */
 
 .item img{
+  width: auto;
+  height: 500px;
+  max-height: 500px;
   margin:auto;
+  padding:auto;
 }
 
 #carousel{
-  margin-top: 200px;
+/*  margin-top: 200px;
   margin: auto;
   width: 900px;
   height: 600px;
-  padding-top: 75px;
+  padding-top: 75px;*/
+  height:500px;
+  border-radius: 3px;
+  margin-left:180px;
+  margin-top:2%;
+  margin-bottom:2%;
 }
+
+.carousel-indicators{
+  bottom:-70px;
+}
+
+.carousel-caption{
+  bottom:-100px;
+}
+
+
+/* WEB PROJECT SETTINGS */
 
 .web-project-header{
   text-align: center;
@@ -196,8 +199,8 @@ nav {
   background-color: white;
   border-radius: 3px;
   margin-left:180px;
-  margin-top:65px;
-  margin-bottom:65px;
+  margin-top:2%;
+  margin-bottom:2%;
 }
 
 .web-project-image{
