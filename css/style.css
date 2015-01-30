@@ -157,12 +157,19 @@ nav {
 
 /* CAROUSEL SHIT */
 
+.carousel-inner{
+  height:500px;
+}
+
 .item img{
   width: auto;
   height: 500px;
   max-height: 500px;
   margin:auto;
   padding:auto;
+}
+
+.item{
 }
 
 #carousel{
@@ -183,7 +190,6 @@ nav {
 }
 
 .carousel-caption{
-  bottom:-100px;
 }
 
 
