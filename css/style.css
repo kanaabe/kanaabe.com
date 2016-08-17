@@ -5,33 +5,26 @@
   padding: 0px;
 }
 
-body{ 
-  background: url(../resources/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.container {
+  width: calc(100vw - 200px);
+  float: right;
 }
- 
+
 nav {
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Consolas", Courier, monospace;
 	position: fixed;
-	margin-top:2%;
-  margin-bottom:2%;
 	line-height: 10px;
+  border-right: 1px solid black;
 	width: 200px;
-  height:100%;
+  height:100vh;
   display:inline-block;
-	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-	-moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 	float:left;
   z-index: 9999;
 }
- 
+
 .menu-item {
   background: #fff;
-  width: 200px;
+  width: 100%;
   margin:0px;
 }
 
@@ -49,18 +42,17 @@ nav {
 }
 
 .menu-item h4 a {
-  color: #fff;
-  display: block;
-  text-decoration: none;
-  width: 200px;
+  color: white;
 }
 
 .menu-item a:hover{
   text-decoration: none;
+  background: #00ffff;
+  color: black;
 }
 
-.menu-item h4:hover {
-  background: #00ffff; /* Old browsers */
+.menu-item a.selected {
+  background: #00ffff;
 }
 
 /*First Item Styles*/
@@ -80,20 +72,21 @@ nav {
   padding: 0px;
   margin-bottom: 0px; /*overwrite bootstrap*/
 }
- 
+
 .menu-item ul a {
-  margin-left: 20px;
+  padding-left: 20px;
   text-decoration: none;
   color: #aaa;
   display: block;
   width: 200px;
+  background-color: white;
 }
- 
+
 /*li Styles*/
 .menu-item li {
   border-bottom: 1px solid #eee;
 }
- 
+
 .menu-item li:hover {
   background: #eee;
 }
@@ -119,7 +112,7 @@ nav {
   list-style-type: none;
   overflow: hidden;
   padding: 0px;
-   
+
   /*Animation*/
   -webkit-transition: height 1s ease;
      -moz-transition: height 1s ease;
@@ -131,7 +124,7 @@ nav {
 /* overwrite bootstrap*/
 .menu-item p{
   margin-bottom: 0px;
-} 
+}
 
 .menu-item-1 ul {
   height: 31px;
@@ -155,58 +148,39 @@ nav {
   height: 155px;
 }
 
-/* CAROUSEL SHIT */
-
-.carousel-inner{
-  height:500px;
+.menu-item-8 ul {
+  height: 247px;
 }
 
-.item img{
+/* FEED */
+
+.grid{
+  max-width: 1250px;
+}
+
+.grid-item {
+  display: inline-block;
+  width: 32%;
+}
+
+.grid-item img {
   width: auto;
-  height: 500px;
-  max-height: 500px;
-  margin:auto;
-  padding:auto;
+  max-width: 100%;
 }
 
-.item{
+.grid-item .caption {
+  display: none;
 }
-
-#carousel{
-/*  margin-top: 200px;
-  margin: auto;
-  width: 900px;
-  height: 600px;
-  padding-top: 75px;*/
-  height:500px;
-  border-radius: 3px;
-  margin-left:180px;
-  margin-top:2%;
-  margin-bottom:2%;
-}
-
-.carousel-indicators{
-  bottom:-70px;
-}
-
-.carousel-caption{
-}
-
-
 /* WEB PROJECT SETTINGS */
 
 .web-project-header{
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+  font-family: "Consolas", Courier, monospace;
 }
 
 .web-project-container{
   padding:10px;
-  background-color: white;
-  border-radius: 3px;
-  margin-left:180px;
-  margin-top:2%;
-  margin-bottom:2%;
+  margin-top:20px;
 }
 
 .web-project-image{
@@ -216,6 +190,7 @@ nav {
 }
 
 .web-project-description{
+  font-family: "Consolas", Courier, monospace;
   padding:15px;
 }
 
