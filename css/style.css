@@ -152,6 +152,10 @@ nav {
   height: 247px;
 }
 
+.self {
+  width: 150px !important;
+}
+
 /* FEED */
 
 .grid{
