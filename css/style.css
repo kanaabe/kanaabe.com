@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: calc(100vw - 200px);
+  float: right;
+}
+
+nav {
+	font-family: "Consolas", Courier, monospace;
+	position: fixed;
+	line-height: 10px;
+  border-right: 1px solid black;
+	width: 200px;
+  height:100vh;
+  display:inline-block;
+	float:left;
+  z-index: 9999;
+}
+
+.menu-item {
+  background: #fff;
+  width: 100%;
+  margin:0px;
+}
+
+/*Menu Header Styles*/
+.menu-item h4 {
+	font-family: "Courier New", Courier, monospace;
+	line-height: 15px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 7px 12px;
+	background: #000000;
+  margin:0px;
+  margin-top:0px;
+}
+
+.menu-item h4 a {
+  color: white;
+}
+
+.menu-item a:hover{
+  text-decoration: none;
+  background: #00ffff;
+  color: black;
+}
+
+.menu-item a.selected {
+  background: #00ffff;
+}
+
+/*First Item Styles*/
+.alpha p {
+    font-size: 13px;
+    padding: 8px 12px;
+    color: #000000;
+}
+
+/*ul Styles*/
+.menu-item ul {
+  background: #fff;
+  font-size: 13px;
+  line-height: 30px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+  margin-bottom: 0px; /*overwrite bootstrap*/
+}
+
+.menu-item ul a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: #aaa;
+  display: block;
+  width: 200px;
+  background-color: white;
+}
+
+/*li Styles*/
+.menu-item li {
+  border-bottom: 1px solid #eee;
+}
+
+.menu-item li:hover {
+  background: #eee;
+}
+
+/*ul Styles*/
+.menu-item ul {
+  background: #fff;
+  font-size: 13px;
+  line-height: 30px;
+  height: 0px; /*Collapses the menu*/
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+}
+
+
+/*ul Styles*/
+.menu-item ul {
+  background: #fff;
+  font-size: 13px;
+  line-height: 30px;
+  height: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+
+  /*Animation*/
+  -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+}
+
+/* overwrite bootstrap*/
+.menu-item p{
+  margin-bottom: 0px;
+}
+
+.menu-item-1 ul {
+  height: 31px;
+}
+
+.menu-item-2 ul {
+  height: 62px;
+}
+
+.menu-item-3 ul {
+  height: 93px;
+}
+
+.menu-item-4 ul {
+  height: 124px;
+}
+.menu-item-5 ul {
+  height: 155px;
+}
+.menu-item-6 ul {
+  height: 155px;
+}
+
+.menu-item-8 ul {
+  height: 247px;
+}
+
+.self {
+  width: 150px !important;
+}
+
+/* FEED */
+
+.grid{
+  max-width: 1250px;
+}
+
+.grid-item {
+  display: inline-block;
+  width: 32%;
+}
+
+.grid-item img {
+  width: auto;
+  max-width: 100%;
+}
+
+.grid-item .caption {
+  display: none;
+}
+/* WEB PROJECT SETTINGS */
+
+.web-project-header{
+  text-align: center;
+  font-family: "Consolas", Courier, monospace;
+}
+
+.web-project-container{
+  padding:10px;
+  margin-top:20px;
+}
+
+.web-project-image{
+  padding: 15px;
+  margin: auto;
+  width: 100%;
+}
+
+.web-project-description{
+  font-family: "Consolas", Courier, monospace;
+  padding:15px;
+}
+
+a > img:hover{
+  opacity: 0.5;
+}
