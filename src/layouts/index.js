@@ -37,7 +37,7 @@ const Header = () => (
       </h2>
       <h2>
         <Link
-          to='/code'
+          to='/engineering'
         >
           Engineering
         </Link>

@@ -40,8 +40,8 @@ a.logo:hover {
   }
 }
 
-/* code.js */
-.code__github-link {
+/* engineering.js */
+.engineering__github-link {
   color: white;
   background-color: #eabe2e;
   border-radius: 50%;
@@ -55,16 +55,16 @@ a.logo:hover {
   align-items: center;
 }
 
-.code__github-link h2 {
+.engineering__github-link h2 {
   margin-bottom: 0px;
 }
 
-.code__github-link:hover {
+.engineering__github-link:hover {
   color: black;
 }
 
 @media only screen and (max-width: 768px) {
-  .code__github-link {
+  .engineering__github-link {
     top: unset;
     right: unset;
     left: 0;

@@ -1,14 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Code = () => (
+const Engineering = () => (
   <div
     style={{
       position: 'relative'
     }}
   >
     <a
-      className='code__github-link'
+      className='engineering__github-link'
       href='http://github.com/kanaabe'
     >
       <h2>Github</h2>
@@ -28,4 +28,4 @@ const Code = () => (
   </div>
 )
 
-export default Code
+export default Engineering
