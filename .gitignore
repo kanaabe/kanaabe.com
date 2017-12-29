@@ -5,3 +5,5 @@ node_modules
 # Build directory
 yarn-error.log
 .project
+public/
+.DS_Store
