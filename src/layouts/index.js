@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import contactIcon from '../../assets/images/contact-icon.svg'
 
 import './index.css'
 import './main.css'
@@ -47,6 +48,21 @@ const Header = () => (
           to='/fermentation'
         >
           Fermentation
+        </Link>
+      </h2>
+      <h2
+        style={{
+          margin: '0 0 0 auto',
+        }}
+      >
+        <Link
+          to='/contact'
+          style={{
+            marginRight: 0,
+            fontSize: '14px'
+          }}
+        >
+          Contact
         </Link>
       </h2>
     </div>
