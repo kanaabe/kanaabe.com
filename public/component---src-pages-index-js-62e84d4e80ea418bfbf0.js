@@ -1,0 +1,2 @@
+webpackJsonp([35783957827783],{185:function(e,t,a){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=a(4),r=u(n),s=a(57),c=(u(s),function(){return r.default.createElement("div",{style:{background:'url("https://s3.amazonaws.com/kana-assets/bg.jpg")',backgroundSize:"cover",height:"calc(100vh - 8.45rem)"}})});t.default=c,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-index-js-62e84d4e80ea418bfbf0.js.map
