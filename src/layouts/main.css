@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+h3 a {
+  text-decoration: underline;
+}
+
 a:hover {
   color: #eabe2e;
 }
@@ -40,8 +44,8 @@ a.logo:hover {
   }
 }
 
-/* engineering.js */
-.engineering__github-link {
+/* cv.js */
+.cv__github-link {
   color: white;
   background-color: #eabe2e;
   border-radius: 50%;
@@ -55,16 +59,16 @@ a.logo:hover {
   align-items: center;
 }
 
-.engineering__github-link h2 {
+.cv__github-link h2 {
   margin-bottom: 0px;
 }
 
-.engineering__github-link:hover {
+.cv__github-link:hover {
   color: black;
 }
 
 @media only screen and (max-width: 768px) {
-  .engineering__github-link {
+  .cv__github-link {
     top: unset;
     right: unset;
     left: 0;

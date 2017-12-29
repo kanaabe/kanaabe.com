@@ -30,16 +30,16 @@ const Header = () => (
       </h1>
       <h2>
         <Link
-          to='/art'
+          to='/projects'
         >
-          Art
+          Projects
         </Link>
       </h2>
       <h2>
         <Link
-          to='/engineering'
+          to='/cv'
         >
-          Engineering
+          CV
         </Link>
       </h2>
       <h2>
