@@ -23,6 +23,16 @@ a.logo:hover {
   color: black;
 }
 
+.index__main-image {
+  background: url('https://s3.amazonaws.com/kana-assets/bg.jpg');
+  background-size: cover;
+  height: calc(100vh - 8.45rem)
+}
+
+.index__main-image:hover {
+  filter: invert(100%);
+}
+
 .header-container {
   display: flex;
   flex-direction: row;
