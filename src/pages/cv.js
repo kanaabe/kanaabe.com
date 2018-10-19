@@ -14,8 +14,10 @@ const CV = () => (
       <h2>Github</h2>
     </a>
 
-    <a href='http://artsy.net'><h2>Artsy (current)</h2></a>
-    <h3>Engineer Lead, Publishing Team. Previously, Software Engineer.</h3>
+    <a href='http://artsy.net'><h2>Artsy</h2></a>
+    <h3>Engineer Manager and Tech Lead for Publishing and Grow teams.
+      <br></br>
+      Previously, Software Engineer.</h3>
 
     <a href='http://flatironschool.com'><h2>Flatiron School</h2></a>
     <h3>Student, Cohort 007</h3>

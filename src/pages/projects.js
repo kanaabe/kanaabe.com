@@ -4,6 +4,11 @@ import Link from 'gatsby-link'
 const Projects = () => (
   <div>
     <ProjectBlock
+      header='Artsy News'
+      subheader='Short-form art world news.'
+      href='https://artsy.net/news'
+    />
+    <ProjectBlock
       header='The Future of Art'
       subheader='A landing experience for a video series on the future of art with BMW.'
       href='https://artsy.net/future-of-art'
