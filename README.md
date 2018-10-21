@@ -1,4 +1,4 @@
-kanaabe.com
+kanaabe.net
 
 Created with Gatsby.js
 

@@ -6,4 +6,4 @@ set -e -x
 
 rm -rf public
 yarn build
-aws s3 sync public s3://kanaabe.com --acl public-read --delete
+aws s3 sync public s3://kanaabe.net --acl public-read --delete
