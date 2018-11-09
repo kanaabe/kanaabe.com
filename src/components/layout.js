@@ -5,6 +5,7 @@ import Helmet from "react-helmet"
 
 import "../layouts/index.css"
 import "../layouts/main.css"
+import favicon from "../../assets/images/favicon.ico"
 
 const Header = () => (
   <div
@@ -72,6 +73,11 @@ const Layout = ({ children }) => (
         {
           href: "https://fonts.googleapis.com/css?family=Inconsolata|Lato:900",
           rel: "stylesheet"
+        },
+        {
+          href: `${favicon}`,
+          type: "image/x-icon",
+          rel: "shortcut icon"
         }
       ]}
     />
@@ -90,7 +96,7 @@ const Layout = ({ children }) => (
 )
 
 Layout.propTypes = {
-  children: PropTypes.array
+  children: PropTypes.any
 }
 
 export default Layout
