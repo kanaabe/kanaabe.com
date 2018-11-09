@@ -58,7 +58,6 @@ export default class IndexPage extends React.Component {
     this.ctx.closePath()
     this.ctx.stroke()
     this.frame = setInterval(this.draw, 60)
-    console.log(this.state.drawings)
   }
 
   handleMouseMove = e => {
