@@ -141,17 +141,21 @@ export default class IndexPage extends React.Component {
 
 const Canvas = React.forwardRef((props, ref) => {
   const { handleMouseDown, handleMouseUp, handleMouseMove } = props
-  return (
-    <StyledCanvas
-      ref={ref}
-      width={window.innerWidth}
-      height={window.innerHeight - 100}
-      onMouseDown={handleMouseDown}
-      onMouseUp={handleMouseUp}
-      onMouseMove={handleMouseMove}
-      onMouseOut={handleMouseUp}
-    />
-  )
+  if (typeof window !== "undefined") {
+    return (
+      <StyledCanvas
+        ref={ref}
+        width={window.innerWidth}
+        height={window.innerHeight}
+        onMouseDown={handleMouseDown}
+        onMouseUp={handleMouseUp}
+        onMouseMove={handleMouseMove}
+        onMouseOut={handleMouseUp}
+      />
+    )
+  } else {
+    return null
+  }
 })
 
 const StyledCanvas = styled.canvas`
