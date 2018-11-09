@@ -24,13 +24,13 @@ a.logo:hover {
 }
 
 .index__main-image {
-  background: url('https://s3.amazonaws.com/kana-assets/bg.jpg');
+  background: url("https://s3.amazonaws.com/kana-assets/bg.jpg");
   background-size: cover;
   height: calc(100vh - 8.45rem);
   transition: filter 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.index__main-image:hover {
+.index__main-image.isDrawing {
   filter: invert(100%);
 }
 
