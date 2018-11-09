@@ -104,7 +104,12 @@ export default class IndexPage extends React.Component {
         }
         this.ctx.closePath()
         this.ctx.stroke()
-        if (maxY < window.innerHeight && newDrawing.length) {
+
+        if (
+          typeof window !== "undefined" &&
+          maxY < window.innerHeight &&
+          newDrawing.length
+        ) {
           newDrawings.push(newDrawing)
         }
       })
