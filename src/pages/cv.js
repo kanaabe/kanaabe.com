@@ -11,6 +11,11 @@ const CV = () => (
       <h2>Github</h2>
     </a>
 
+    <a href="http://glossier.com">
+      <h2>Glossier</h2>
+    </a>
+    <h3>Senior Software Engineer</h3>
+
     <a href="http://artsy.net">
       <h2>Artsy</h2>
     </a>
@@ -32,21 +37,26 @@ const CV = () => (
       Research Partner
       <br />
       <br />
-      B. Saleh, K. Abe and A. Elgammal<br />
+      B. Saleh, K. Abe and A. Elgammal
+      <br />
       <a href="http://robohub.org/a-computer-vision-system-for-mining-artistic-influence/">
         <i>“A Computer Vision System for Artistic Influence Mining”</i>
       </a>
       <br />
-      Robohub - November 2014<br />
+      Robohub - November 2014
       <br />
-      B. Saleh, K. Abe, R. Arora, A. Elgammal<br />
+      <br />
+      B. Saleh, K. Abe, R. Arora, A. Elgammal
+      <br />
       <a href="https://www.cs.rutgers.edu/~elgammal/pub/MTA_2014_Saleh.pdf">
         <i>“Toward Automated Discovery of Artistic Influence”</i>
       </a>
       <br />
-      Multimedia Tools and Applications Journal– Springer – 2014<br />
+      Multimedia Tools and Applications Journal– Springer – 2014
       <br />
-      B. Saleh, K. Abe and A. Elgammal<br />
+      <br />
+      B. Saleh, K. Abe and A. Elgammal
+      <br />
       <a href="https://www.cs.rutgers.edu/~elgammal/pub/ICCC14_Influences.pdf">
         <i>
           “Knowledge Discovery of Artistic Influences: A Metric Learning
@@ -55,13 +65,16 @@ const CV = () => (
       </a>
       <br />
       The Fifth International Conference on Computational Creativity (ICCC),
-      Ljubjana, Slovania, June 2014<br />
+      Ljubjana, Slovania, June 2014
       <br />
-      K. Abe, B. Saleh and A. Elgammal<br />
+      <br />
+      K. Abe, B. Saleh and A. Elgammal
+      <br />
       <i>“An Early Framework for Determining Artistic Influence” </i>
       <br />
       The 2nd International Workshop on Multimedia for Cultural Heritage
-      (MM4CH), Naples, Italy 2013<br />
+      (MM4CH), Naples, Italy 2013
+      <br />
     </h3>
 
     <h2>Sailthru</h2>
@@ -69,8 +82,10 @@ const CV = () => (
 
     <h2>Rutgers University 2013</h2>
     <h3>
-      Student, Double major in Computer Science and Visual Art<br />
-      DJ @ WRLC 90.3FM<br />
+      Student, Double major in Computer Science and Visual Art
+      <br />
+      DJ @ WRLC 90.3FM
+      <br />
       Founder @ Trim Magazine
     </h3>
   </Layout>
